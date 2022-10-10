@@ -1,0 +1,310 @@
+/* колір основного тексту  #757575;*/
+/* вторичний колір #212121;*/
+/* колір фону #F5F5F5;*/
+/* білий колір #FFFFFF;*/ 
+/* акцент #2196F3;*/
+/* колір контактів rgba(255, 255, 255, 0.6);*/
+
+:root {
+    --primary-color: #757575;
+    --link-color: #212121;
+    --secondary-text-color: #212121;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: var(--primary-color)
+    var(--secondary-text-color)
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none; 
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.link:hover {
+    color: #2196F3;
+}
+
+.link:focus {
+    color: #2196F3;
+}   
+
+.nav-link:hover {
+    color: #2196F3;
+}
+
+.nav-link:focus {
+    color: #2196F3;
+}
+
+.nav-link-portfolio  {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.nav-link-portfolio:hover {
+    color: #2196F3;
+}
+
+.nav-link-portfolio:focus {
+    color: #2196F3;
+}
+
+.link-tel {
+    color: #757575;
+}
+
+.link-tel:hover {
+    color: #2196F3;
+}
+
+.footer-link:hover {
+    color: #2196F3;
+}
+
+.footer-link:focus {
+    color: #2196F3;
+}
+
+.logo-link {
+color: #2196F3;
+text-decoration: none;
+font-size: 26px;
+line-height: 1.2;
+font-weight: 700;
+
+}
+
+.logo-header {
+    color: black;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.logo-header-footer {
+    color: #FFFFFF;
+    line-height: 1.1;
+}
+
+.link {
+    color: #212121;
+    text-decoration: none; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    
+    }
+    
+.nav-link {
+    color: #212121;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.nav .nav-link.current {
+    color: #2196F3;
+}
+
+.nav .nav-link-portfolio.current {
+    color: #2196F3;
+}
+
+
+.section-hero {
+    background: #2F303A;
+}
+
+.title-hero {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+     text-transform: uppercase;
+}
+
+.section-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+.ul-persons {
+    background: #F5F4FA;
+}
+
+.persons {
+background: #FFFFFF;
+
+}
+
+.title-person {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.title-person-detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+
+.section-btn {
+    color:var(--secondary-text-color);
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+        
+}
+
+.section-btn:hover {
+background: #2196F3;
+
+}
+
+.section-btn:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
+.section-btn-all {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section-btn-all:hover {
+    color: #008000;
+   
+}
+
+.section-btn-all:focus {
+    color: rgb(223, 154, 26);
+}
+
+.title-work {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+
+}
+
+.work-all {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.0;
+    color: #757575;
+}
+
+.section-background {
+background-color: #FFFFFF;
+}
+
+/*footer*/
+.footer-color {
+background-color:#2F303A;;
+
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.address-link {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.header-btn {
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    cursor: pointer; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    border-radius: 4px;
+}
+
