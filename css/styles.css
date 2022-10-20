@@ -66,6 +66,8 @@ ul {
     background-color: #FFFFFF;
     display: flex;
     margin-left: 93px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .nav .li {
@@ -223,7 +225,6 @@ margin-right: 0;
 
 }
 
-
 .title-person {
     font-style: normal;
     font-weight: 500;
@@ -358,10 +359,7 @@ background: #2196F3;
 
     }
 
-    .address-li {
-      
-    }
-
+  
 .header-btn {
     display: flex;
     margin-right: auto;
@@ -414,9 +412,14 @@ p {
 h1 {
     padding-top: 200px;
     
-    padding-left: 452px;
-    padding-right: 452px;
+    margin-left: auto;
+   margin-right: auto;
     
+}
+
+.logo {
+margin-top: 24px;
+margin-bottom: 25px;
 }
 
 .button {
@@ -462,11 +465,18 @@ margin-bottom: 34px;
 .page-header { 
     display: flex;
     align-items: center;
+    border-bottom: #ECECEC;
+    border-bottom: 1px;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .li-item {
     display: flex;
     margin-left: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .item-tel {
@@ -488,6 +498,7 @@ margin-bottom: 34px;
 .main-nav {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .button .item + .item {
